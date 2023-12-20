@@ -6,9 +6,9 @@
 
 ## Requirement:
 
--   Make a company that display it's projects in the home page.
+-   Make a company that displays its projects in the home page.
 -   In the top menu should be something to change the language.
--   In the footer should be a form where the user can put his mail to subscribe in the news service.
+-   In the footer should be a form where the user can put his email to subscribe in the news service.
 -   Seed 1000 emails using factories.
 -   There should be a private page to manage the projects and can be accessed only by company manager.
 -   Another private page should be to send emails to the subscribers using Queues & Jobs (25 emails for each job).
