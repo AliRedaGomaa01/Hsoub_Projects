@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slider.css">
+</head>
+<body>
+    <section id="header">
+        <div id="branding">
+            <h1>
+                <a href="index.html"><i class="fa-solid fa-circle-user">
+                    </i> صفحة <span class="highlight">اسم الطالب</span>
+                </a> 
+            </h1>
+        </div>
+        <nav>
+            <ul>
+                <li class="current"><a href="index.html">الرئيسية</a></li>
+                <li><a href="gallery.html">معرض الأعمال</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="slider">
+        <div id="wrapper">
+            <div class="content">                        
+                <img src="img/1.PNG">
+            </div>          
+            <div class="content">
+                <img src="img/2.PNG">
+            </div>
+            <div class="content">
+                <img src="img/3.PNG">
+            </div>
+            <div class="content">
+                <img src="img/4.PNG">
+            </div>
+        </div>
+        <div id="navLinks">
+            <ul>
+                <li class="itemLinks" data-pos="0"></li>
+                <li class="itemLinks" data-pos="1"></li>
+                <li class="itemLinks" data-pos="2"></li>
+                <li class="itemLinks" data-pos="3"></li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="descriptionContainer">
+        <div class="description" data-pos="0">
+            <div class="title">
+                <span class="icon"><i class="fa-brands fa-web-awesome"></i></span> معرض الصور التجريبي
+            </div>
+            <div class="tech">HTML, CSS, JS</div>
+            <div class="desc">هذا المشروع عبارة عن معرض صور بسيط يسمح بعرض صور متعددة مع تحريك سلس وسلايدر، مع وصف لكل صورة يظهر عند التنقل بين الصور. 
+                هذا المشروع عبارة عن معرض صور بسيط يسمح بعرض صور متعددة مع تحريك سلس وسلايدر، مع وصف لكل صورة يظهر عند التنقل بين الصور.
+                هذا المشروع عبارة عن معرض صور بسيط يسمح بعرض صور متعددة مع تحريك سلس وسلايدر، مع وصف لكل صورة يظهر عند التنقل بين الصور.
+                هذا المشروع عبارة عن معرض صور بسيط يسمح بعرض صور متعددة مع تحريك سلس وسلايدر، مع وصف لكل صورة يظهر عند التنقل بين الصور.
+                هذا المشروع عبارة عن معرض صور بسيط يسمح بعرض صور متعددة مع تحريك سلس وسلايدر، مع وصف لكل صورة يظهر عند التنقل بين الصور.
+                هذا المشروع عبارة عن معرض صور بسيط يسمح بعرض صور متعددة مع تحريك سلس وسلايدر، مع وصف لكل صورة يظهر عند التنقل بين الصور.
+                هذا المشروع عبارة عن معرض صور بسيط يسمح بعرض صور متعددة مع تحريك سلس وسلايدر، مع وصف لكل صورة يظهر عند التنقل بين الصور.
+                هذا المشروع عبارة عن معرض صور بسيط يسمح بعرض صور متعددة مع تحريك سلس وسلايدر، مع وصف لكل صورة يظهر عند التنقل بين الصور.
+            </div>
+        </div>
+        <div class="description" data-pos="1">
+            <div class="title">
+                <span class="icon"><i class="fa-brands fa-web-awesome"></i></span> مدونة شخصية
+            </div>
+            <div class="tech">React, Node.js</div>
+            <div class="desc">مشروع مدونة تفاعلية تسمح للمستخدمين بإنشاء منشورات، إضافة تعليقات، وتنظيم المحتوى بطريقة ديناميكية وسهلة الإدارة.</div>
+        </div>
+        <div class="description" data-pos="2">
+            <div class="title">
+                <span class="icon"><i class="fa-brands fa-web-awesome"></i></span> لوحة تصميم تفاعلية
+            </div>
+            <div class="tech">Vue, Tailwind CSS, Canvas API</div>
+            <div class="desc">تطبيق ويب يسمح للمستخدم برسم تصاميمه الخاصة باستخدام أدوات تفاعلية متعددة، مع إمكانية حفظ الأعمال ومشاركتها بسهولة.</div>
+        </div>
+        <div class="description" data-pos="3">
+            <div class="title">
+                <span class="icon"><i class="fa-brands fa-web-awesome"></i></span> تطبيق قائمة مهام
+            </div>
+            <div class="tech">React Native, Firebase</div>
+            <div class="desc"> تطبيق موبايل لإدارة المهام اليومية، يتيح إضافة، تعديل، وحذف المهام، مع مزامنة البيانات بين الأجهزة المختلفة بشكل آني.</div>
+        </div>
+    </section>    
+
+    <footer style="position: fixed; bottom: 0">
+        <p>الصفحة الشخصية لاسم المسجل &copy; 2025</p>
+    </footer>
+    
+</body>
+
+<script src="js/slider.js"></script>
+</html>

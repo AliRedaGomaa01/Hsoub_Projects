@@ -1,25 +1,19 @@
-<div dir="rtl">
+<div dir="ltr">
   <h1>
   This is a project of making a social web app similar to instagram
   </h1>
-  <pre>
-  This project is one of projects of 
- the 'Php Web App Developer' career path by Hsoub Academy.
-  </pre>
-  <pre>
-    It was made using laravel. And it was a training on 
-    using ( Livewire - Relationships Between Models - Laravel Basics )
-  </pre>
+This project is one of projects of the 'Php Web App Developer' career path by Hsoub Academy.
+It was made using laravel. And it was a training on using ( Livewire - Relationships Between Models - Laravel Basics )
 </div>
 
-<div dir="rtl">
+<div dir="ltr">
 You can reach the career path web page using next URL :
 <a href="https://academy.hsoub.com/learn/php-web-application-development/">PHP WEB APP DEVELOPER COURSE</a>
 </div>
 
 <h2> To run the project </h2>
 
-<ul dir="rtl">
+<ul dir="ltr">
   <li>Use a local host ex. Xampp Or Laragon</li>
   <li>install PHP packages <code>composer install</code></li>
   <li>migrate DB with seeding<code>php artisan migrate --seed</code></li>
